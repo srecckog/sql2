@@ -1,0 +1,8 @@
+SELECT CONVERT(VARBINARY(8), cast(536874517707 as bigint))
+SELECT mid(CONVERT(VARBINARY(8), cast(536874517707 as bigint)),5,12)
+select substring(CONVERT(VARBINARY(8), cast(536874517707 as bigint)),1,2)
+select substring(CONVERT(VARBINARY(8), cast(536874517707 as bigint)),1,3)
+select substring(CONVERT(VARBINARY(8), cast(536874517707 as bigint)),1,4)
+SELECT CONVERT(bigint, substring(CONVERT(VARBINARY(8), cast(536874517707 as bigint)),1,4) )
+select substring(CONVERT(VARBINARY(8), cast(536874517707 as bigint)),5,15)
+SELECT CONVERT(bigint, substring(CONVERT(VARBINARY(8), cast(536874517707 as bigint)),5,15) )

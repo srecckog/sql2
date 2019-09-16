@@ -1,0 +1,5 @@
+update projectmtz set P_dodatneoperacije=18 where project like '%SKF%'
+update projectmtz set P_dodatneoperacije=4 where project like '%KYSUCE%'
+update projectmtz set P_dodatneoperacije=3 where project like '%AUSTRIA%'
+update projectmtz set P_dodatneoperacije=5 where project like '%SONA%'
+update projectmtz set P_dodatneoperacije=3 where project like '%DEBRECEN%'

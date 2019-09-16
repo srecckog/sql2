@@ -1,0 +1,3 @@
+select prezime
+
+from event
