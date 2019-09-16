@@ -13,4 +13,4 @@ wheRE ACFIELDSA='S'
 AND adDateEnd IS NULL
 ) x1
 left join rfind.dbo.brutonetosatnice b on x1.bruto_satnica=b.bruto
-
+--test
